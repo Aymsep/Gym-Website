@@ -4,38 +4,524 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favcion-gym.png">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <script src="index.js" defer></script>
+    <title>Gym-Fitness</title>
 </head>
 <body>
-     <!-- ========================================================================= 
-                                         h1 first paragraph
-    ========================================================================= -->                                
-    <h1>Our name</h1>
-   
-    <!-- ========================================================================= 
-                                         First Box
-    ========================================================================= -->                                
-    <div class="box1">
-        <h3>Chiken</h3>
-        <p>Vivamus integer non suscipit taciti mus etiam at primis tempor sagittis sit, euismod libero facilisi aptent elementum felis blandit cursus gravida sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae curabitur est ad. Massa curae fringilla porttitor quam sollicitudin iaculis aptent leo ligula euismod dictumst, orci penatibus mauris eros etiam praesent erat volutpat posuere hac. Metus fringilla nec ullamcorper odio aliquam lacinia conubia mauris tempor, etiam ultricies proin quisque lectus sociis id tristique, integer phasellus taciti pretium adipiscing tortor sagittis ligula. </p>
-    
+
+<!--container containing toggle-button , navbar-links menu , and Brand name-->
+    <div class="container">
+
+        <!--header to be more structred-->
+        <header>
+
+            <!--navbar div-->
+            <nav class="navbar">
+
+                <!--navbar brand name-->
+                <div class="brand-title">Gym Fitness</div>
+
+                <!--toggle responsive button-->
+                <a href="#" class="toggle-button">
+
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+
+                </a>
+
+                <!--navbar links menu -->
+                <div class="navbar-links">
+
+                    <ul>
+                        <li><a href="" id="active">home</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">classes</a></li>
+                        <li><a href="">schedules</a></li>
+                        <li><a href="" id="contact-us">contact us</a></li>
+                    </ul>
+
+                </div>
+
+            </nav>
+            <!--navbar end-->
+
+            <!--content inside container-->
+            <div class="content-page">
+
+                <span>new way to build a healthy lifestyle!</span>
+                <h1>UPGRADE YOUR BODY AT<br>GYMSO FITNESS</h1>
+
+                <!--two anchor like button-->
+                <div class="two-anchor">
+
+                    <a href="#">get started</a>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+            <!--end of content page-->
+
+        </header>
+        <!--end of header-->
+
     </div>
-    
-    <!-- ========================================================================= 
-                                         Second Box
-    ========================================================================= -->
-    <div class="box2">
-        <h3>Beef</h3>
-        <p>Vivamus integer non suscipit taciti mus etiam at primis tempor sagittis sit, euismod libero facilisi aptent elementum felis blandit cursus gravida sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae curabitur est ad. Massa curae fringilla porttitor quam sollicitudin iaculis aptent leo ligula euismod dictumst, orci penatibus mauris eros etiam praesent erat volutpat posuere hac. Metus fringilla nec ullamcorper odio aliquam lacinia conubia mauris tempor, etiam ultricies proin quisque lectus sociis id tristique, integer phasellus taciti pretium adipiscing tortor sagittis ligula. </p>
+    <!--end of container-->
+<!---->
+<!--note fadein class is to make text fadein on scroll look at js file-->
+<!--container containig tree icon with text and button-->
+    <div class="container-icons">
+        
+        <!--content before icon-->
+       <div class="before-icons fadein">
+
+        <h1>ready to build a body </h1>
+        <span>CHECKOUT OUR FITNESS CLASSES</span>
+
+       </div>
+
+       <!--div containing all icon with text-->
+        <div class="icon fadein">
+
+            <!--icon 1-->
+            <div class="icons-1">
+
+                <img src="images/icon1.png" alt="" width="70" >
+               <h4>High Intensity Interval Training</h4>
+           </img>
+
+       </div><hr>
+
+            <!--icon 2-->
+       <div class="icons-2 ">
+
+           <img src="images/icon2.png" alt="" width="70">
+               <h4>heavy weight</h4>
+           </img>
+
+       </div><hr>
+
+            <!--icon 3-->
+       <div class="icons-3 ">
+
+           <img src="images/icon3.png" alt="" width="90" height="70">
+               <h4>cardio</h4>
+           </img>
+
+       </div><hr>
+
+        </div>
+            <!--end of div-->
+
+            <!--div containing button-->
+        <div class="button-icon ">
+
+           <a href="#">read more</a>
+           
+        </div>
+
     </div>
-   
-   <!--========================================================================= 
-                                         Third Box
-    ========================================================================= -->
-    <div class="box3">
-        <h3>shushi</h3>
-        <p>Vivamus integer non suscipit taciti mus etiam at primis tempor sagittis sit, euismod libero facilisi aptent elementum felis blandit cursus gravida sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae curabitur est ad. Massa curae fringilla porttitor quam sollicitudin iaculis aptent leo ligula euismod dictumst, orci penatibus mauris eros etiam praesent erat volutpat posuere hac. Metus fringilla nec ullamcorper odio aliquam lacinia conubia mauris tempor, etiam ultricies proin quisque lectus sociis id tristique, integer phasellus taciti pretium adipiscing tortor sagittis ligula. </p>
+    <!--end of icon container-->
+
+<!--container containing header and span and an anchor with a background image -->
+<div class="container-execlusive">
+
+    <h2 class="fadein">FITNESS CLASSES THIS SUMMER. PAY NOW AND <br> GET <a href="">50% DISCOUNT</a></h2>
+    <span class="fadein">Lose weight fast with these scientifically backed workouts</span>
+    <a href="#" id="join-now">join now</a>
+
+</div>
+<!--end of container-execlusive-->
+
+
+<!--container containing two divs flex -->
+<div class="container-member">
+
+    <!--first div containing header , span and a quote , and button-->
+    <div class="new-mem">
+
+        <h1 class="fadein">new member ?</h1>
+        <span class="fadein">get 3 month for free , just sign up.</span><br>
+        <q class="fadein">The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.’</q><br>
+        <button type="submit" class="nw-member">become a member now</button>
+
     </div>
+   <!--end of first div-->
+
+   <!--second div containig header and two strong with two paragraphs -->
+    <div class="working-hour"><hr>
+
+        <h3 class="fadein">working hours</h3>
+        <strong class="fadein">Sunday : closed</strong><br>
+        <strong class="fadein">Monday - Friday</strong>
+        <p class="fadein">6.30 AM - 11.00 PM</p>
+        <strong class="fadein">Saturday</strong>
+        <p class="fadein">6.30 AM - 4.00 PM</p>
+
+    </div>
+    <!--end of second div-->
+
+</div>
+<!--end of container member-->
+
+
+<!--container containing two divs -->
+<div class="container-aboutus">
+
+    <!--first div containing header and two span with button-->
+    <div class="about-us">
+
+        <h1 class="fadein">about us</h1>
+        <span class="fadein">Were not here to carry you to fitness, were here to motivate you to carry yourself to your goals. </span><br><br><br>
+        <span class="fadein">If youre not sure what your goals are, or dont know where to start on your fitness journey, come in and speak to one of our qualified trainers who can help you develop a plan.</span><br><br><br>
+        <button type="submit" class="fadein">SCHEDULE</button>
+
+    </div>
+    <!--end of first div-->
+
+    <!--second div display a background image-->
+    <div class="about-image">
+
+    </div>
+    <!--end of second div-->
+
+</div>
+<!--end of container-aboutus-->
+
+
+<!--container table containing a content before table and table displaying schedule-->
+<div class="container-table">
+
+    <!--div containing before content, span and header-->
+    <div class="before-table">
+
+        <h4>our weekly GYM schedules</h4>
+        <h1>Workout Timetable</h1>
+
+    </div>
+    <!--end of div before content-->
+
+    <table>
+<!--first row-->
+        <thead>
+
+            <tr>
+                
+                <th>
+                    <img src="images/calender-icon.png" alt="" width="45" height="45">
+                </th>
+                
+                <th>WORK</th>
+
+                <th>WORK</th>
+
+                <th>WORK</th>
+
+                <th>WORK</th>
+
+                <th>WORK</th>
+                
+                <th>WORK</th>
+
+            </tr>
+
+        </thead>
+
+
+<!--second row-->
+
+        <tr>
+            <td>
+                mon
+            </td>
+
+            <td>
+                <span>cardio</span><br>7.00 AM - 9.00 AM
+            </td>
+
+            <td>
+                <span>Power Fitness</span><br>7.00 AM - 9.00 Am
+            </td>
+
+            <td id="off">Off</td>
+
+            <td id="off">Off</td>
+
+            <td>
+                <span>Yoga Section</span><br>7.00 AM - 9.00 Am
+            
+            </td>
+            
+            <td id="off">Off</td>
+
+        </tr>
+
+<!--third row-->
+
+        <tr >
+            
+            <td id="vs-sm">
+                tue
+            </td>
+
+            <td id="off">Off</td>
+
+            <td id="off">Off</td>
+
+            <td>
+                <span>Boxing</span><br>8.00 AM - 9.00 AM
+            </td>
+
+            <td>
+                <span>Areobic</span><br>7.00 AM - 9.00 AM
+
+            </td>
+
+            <td id="off">Off</td>
+
+            <td>
+                <span>cardio</span><br>7.00 AM - 9.00 AM
+            </td>
+
+        </tr>
+
+<!--fourth row-->
+
+        <tr>
+
+            <td id="vs-sm">wed</td>
+
+            <td>
+                <span>Boxing</span><br>11.00 AM - 2.00 PM
+            </td>
+
+            <td>
+                <span>Areobic</span><br>11.00 AM - 1.00 PM
+            </td>
+
+            <td id="off">off</td>
+
+            <td>
+                <span>Body work</span><br>11.00 AM - 5.00 PM
+
+            </td>
+
+            <td id="off">Off</td>
+
+            <td id="off">Off</td>
+
+        </tr>
+
+
+<!--fifth row-->
+
+        <tr>
+            <td>thu</td>
+
+            <td id="off">OFF</td>
+
+            <td>
+                <span>Power lifting</span><br>7.00 AM - 2.00 PM
+            </td>
+
+            <td id="off">Off</td>
+
+            <td id="off">Off</td>
+
+            <td>
+                <span>Crossfit</span><br>5.00 PM - 9.00 PM
+            </td>
+            
+            <td>
+                <span>Boxing</span><br>11.00 AM - 9.00 PM
+            </td>
+
+        </tr>
+
+<!--sixth row-->
+        <tr>
+
+            <td>fri</td>
+
+            <td>
+                <span>Power lifting</span><br>7.00 AM - 2.00 PM
+            </td>
+
+            <td id="off">Off</td>
+
+            <td id="off">Off</td>
+
+            <td id="off">Off</td>
+
+            <td>
+                <span>Crossfit</span><br>5.00 PM - 9.00 PM
+            </td>
+
+            <td>
+                <span>Boxing</span><br>11.00 AM - 9.00 PM
+            </td>
+
+        </tr>
+
+<!--last row-->
+
+        <tr>
+
+            <td>sat</td>
+
+            <td >
+                <span>Power lifting</span><br>7.00 AM - 2.00 PM
+            </td>
+
+            <td>
+                <span>Boxing</span><br>11.00 AM - 9.00 PM
+            </td>
+
+            <td id="off">Off</td>
+
+            <td><span>Crossfit</span><br>5.00 PM - 9.00 PM</td>
+
+            <td id="off">Off</td>
+
+            <td id="off" >Off</td>
+
+        </tr>
+<!--end of row-->
+
+    </table>
+<!--end of row-->
+
+</div>
+<!--end of container table-->
+
+
+<!--footer-->
+
+<footer>
+
+    <!--first container containing tree icon with text-->
+    <div class="container-footer-1">
+
+        <!--first div with location icon and text-->
+        <div class="footer-icons1 ft-icons ft-flx">
+            <span href="#">
+                <img src="images/placeholder.png" alt="" width="45" >
+            </span>
+            <div class="cont">
+                <span>Find us </span><br>
+                <span>FW9+P65, Avenue de La Gare, Meknes </span>
+            </div>
+
+        </div>
+
+        <!--second div with phone icon and text-->
+
+        <div class="footer-icons2 ft-icons ft-flx">
+            <span href="#">
+                <img src="images/phone.png" alt="" width="45">
+            </span>
+            <div class="cont">
+                <span>Call us</span><br>
+                <span>888-888-888</span>
+            </div>
+        </div>
+
+        
+        <!--third div with mail icon and text-->
+        <div class="footer-icons3 ft-icons ft-flx">
+            <span href="#">
+                <img src="images/mail-ft.png" alt="" width="45">
+            </span>
+            <div class="cont">
+                <span>Mail us</span><br>
+                <span>suppot-me@gmail.com</span>
+            </div>
+        </div> 
+
+        <!--div with maps embeded-->
+        <div class="maps ft-flx1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13245.099193970926!2d-5.5294305!3d33.9083264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda044e293f418e5%3A0xda33abe18b65ec6b!2sGare%20de%20Mekn%C3%A8s!5e0!3m2!1sen!2sma!4v1655858766295!5m2!1sen!2sma" width="100%" height="120" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+<!--end of container 1 -->
+
+    <hr id="hrhr">
+
+        <!--second container containing  3 div -->
+
+        <!--first div with brand title span , and icons-->
+        <div class="container-footer-2">
+            <div class="section-ft-1 sec-si">
+               <h2><span id="ft-sec2-underline">gym fi</span>tness</h2>
+               <span style="display: block;">It takes more than just a good workout to stay healthy and happy. We provide a holistic fitness experience that includes scientifically-backed and tailored nutrition plans.</span>
+               <a href="" >
+                <span style="display:block;">follow us</span>
+                <img src="images/instagram.png" alt="img" width="35">
+                <img src="images/facebook.png" alt="img" width="35">
+                <img src="images/twitter.png" alt="img" width="35">
+               </a>
+            </div>
+            <!--line visible only in small screen-->
+            <hr id="vs-hr">
+
+            <!--second div containing navbar links-->
+            <div class="section-ft-2 sec-si">
+               <h2> <span id="ft-sec2-underline">Useful</span> Links</h2>
+               <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CLASSES</a></li>
+                <li><a href="#">SCHEDULES</a></li>
+                <li><a href="#">CONTACT US</a></li>
+               </ul>
+            </div>
+            
+            <!--line visible only in small screen-->
+            <hr id="vs-hr">
+
+            <!--third div containing header and input email fields and button-->
+            <div class="section-ft-3 sec-si">
+               <h2> <span id="ft-sec2-underline">Subsc</span>ribe</h2>
+               <span>Don't miss to subscribe to our new feeds , to get latest offres!</span>
+               <input type="email" placeholder="Enter your email address">
+               <button type="submit">Subscribe Now</button>
+               
+            </div>
+</div>
+<!--end of container 2 -->
+
+
+<!--third container containing copyright symbole-->
+<div class="container-footer-3">
+    <p>&copy 2022 All right Reversed.</p>
+</div>  
+<!--end of container 3 -->
+
+       
+</footer>
+<!--end of footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
